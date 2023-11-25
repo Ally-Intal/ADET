@@ -1,0 +1,83 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #DCBFFF;
+    color: #FFEBD8;
+    line-height: 1.6;
+}
+
+/* Header (intro) styling */
+.intro {
+    text-align: center;
+    padding: 50px;
+    background-color: #C683D7;
+    color: #FFEBD8
+}
+
+.intro h1 {
+    font-size: 2.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+/* Profile image styling */
+.intro img.profile-image {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto; /* Center the image horizontally */
+}
+
+/* Projects, Skills, and Contact section styling */
+.projects, .skills, .contact {
+    padding: 30px;
+    margin: 20px;
+    background-color: #ED9ED6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2, .skills h2, .contact h2 {
+    color: #3498db;
+}
+
+.projects ul, .skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li, .skills li {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Links styling */
+a {
+    color: #265073;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #217dbb;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 30px;
+    }
+
+    .projects, .skills, .contact {
+        margin: 10px;
+    }
+} 
